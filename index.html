@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Juros</title>
+    <!-- Link para CSS externo (opcional) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Juros</h1>
+    <!-- Formulário para entrada de dados do usuário -->
+    <form id="formulario-juros">
+        <label for="principal">Capital (R$):</label>
+        <input type="number" id="principal" required>
+        
+        <label for="taxa">Taxa de juros (% ao período):</label>
+        <input type="number" id="taxa" step="0.01" required>
+        
+        <label for="tempo">Tempo (em períodos):</label>
+        <input type="number" id="tempo" required>
+        
+        <button type="button" onclick="calcularJuros()">Calcular</button>
+    </form>
+    
+    <!-- Resultados serão exibidos aqui -->
+    <div id="resultado-juros"></div>
+    
+    <!-- Link para o script JS -->
+    <script src="script.js"></script>
+</body>
+</html>
