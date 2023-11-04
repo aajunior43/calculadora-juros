@@ -1,0 +1,21 @@
+/* Estilo básico para o formulário e resultados */
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#resultado-juros {
+    margin-top: 20px;
+}
